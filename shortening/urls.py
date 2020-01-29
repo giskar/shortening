@@ -29,5 +29,5 @@ urlpatterns = [
             ]
          )
          ),
-    path('<str:url>/', views.ShortUrlRedirect.as_view()),
+    path('<str:link_identifier>/', views.ShortUrlRedirect.as_view()),
 ]
